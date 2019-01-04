@@ -1,5 +1,4 @@
-# TR-Reboot-LR
-Load Removal for all 3 Tomb Raider Reboot Games
+Load Removal for all 3 Tomb Raider Reboot Games in one asl script for Trifect runs
 
 # Use
 1. In **LiveSplit**, **Right Click** anywhere and click **Edit Layout**
