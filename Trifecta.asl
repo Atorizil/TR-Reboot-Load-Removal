@@ -26,6 +26,12 @@ state("ROTTR", "Rise: 813.4"){
 }
 
 // Shadow - By Atorizil
+state("SOTTR", "260.0"){
+  bool Loading : 0x1448910;
+  bool Loading2 : 0x147C490;
+  bool Cutscene : 0x1483A70;
+}
+
 state("SOTTR", "Shadow: 247.0"){
   bool Loading : 0x142F8A0;
   bool Loading2 : 0x146D830;
@@ -85,6 +91,9 @@ init{
       break;
     case "SOTTR":
       switch(modules.First().ModuleMemorySize){
+        case 313040896:
+          version = "Shadow: 260.0";
+          break;
         case 312098816:
           version = "Shadow: 247.0";
           break;
