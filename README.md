@@ -1,4 +1,4 @@
-Load Removal for all 3 Tomb Raider Reboot Games in one asl script for Trifect runs
+Load Removal for all 3 Tomb Raider Reboot Games in one asl script for Trifecta runs
 
 # Use
 1. In **LiveSplit**, **Right Click** anywhere and click **Edit Layout**
