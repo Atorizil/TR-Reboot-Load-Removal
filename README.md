@@ -10,6 +10,6 @@ Load Removal for all 3 Tomb Raider Reboot Games in one asl script for Trifecta r
 ## 2013
 By Dread
 ## Rise
-By Leemmy, Atorizli, Dread and Aphox
+By Leemmy, Atorizil, Dread and Aphox
 ## Shadow
 By Atorizil
