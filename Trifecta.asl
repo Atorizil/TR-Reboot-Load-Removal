@@ -26,22 +26,27 @@ state("ROTTR", "Rise: 813.4"){
 }
 
 // Shadow - By Atorizil
-state("SOTTR", "280.0"){
+state("SOTTR", "Shadow: 286.0"){
+  bool Loading : 0x3587640;
+  bool Loading2 : 0x3587640;
+  bool Cutscene : 0x1491BD8;
+}
+state("SOTTR", "Shadow: 280.0"){
   bool Loading : 0x358D8C0;
   bool Loading2 : 0x358D8C0;
   bool Cutscene : 0x1497BD8;
 }
-state("SOTTR", "279.0"){
+state("SOTTR", "Shadow: 279.0"){
   bool Loading : 0x3586540;
   bool Loading2 : 0x3586540;
   bool Cutscene : 0x1490A58;
 }
-state("SOTTR", "270.0"){
+state("SOTTR", "Shadow: 270.0"){
   bool Loading : 0x357D2C0;
   bool Loading2 : 0x357D2C0;
   bool Cutscene : 0x1487A58;
 }
-state("SOTTR", "260.0"){
+state("SOTTR", "Shadow: 260.0"){
   bool Loading : 0x1448910;
   bool Loading2 : 0x147C490;
   bool Cutscene : 0x1483A70;
@@ -106,6 +111,9 @@ init{
       break;
     case "SOTTR":
       switch(modules.First().ModuleMemorySize){
+        case 306704384:
+          version = "Shadow: 286.0";
+          break;
          case 312975360:
           version = "Shadow: 280.0";
           break;
